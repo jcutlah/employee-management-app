@@ -7,7 +7,7 @@
   <title>Sign-Up Today!</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+  <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase.js"></script>
 </head>
 
 <body>
@@ -31,6 +31,14 @@
                         <input type="text" class="lastName form-control mr-sm-2" placeholder="LastName" aria-label="LastName" aria-describedby="basic-addon2">
                         </div>
                     </form>
+                    <form class="form-inline">
+                            <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Monthly Pay</span>
+                            </div>
+                            <input type="number" class="monthlyPay form-control mr-sm-2" placeholder="FirstName" aria-label="MonthlyPay" aria-describedby="basic-addon1">
+                            </div>
+                        </form>
                     <form class="form-inline">
                         <div class="input-group">
                         <div class="input-group-prepend">
@@ -94,6 +102,9 @@
             </div>
         </div>
     </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/js/app.js"></script>
+
 
 </body>
 </html>
